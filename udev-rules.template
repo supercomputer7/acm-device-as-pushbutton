@@ -1,0 +1,1 @@
+ACTION=="add", ATTRS{idVendor}=="XXXX", ATTRS{idProduct}=="YYYY", ATTRS{serial}=="XXXXXXXX", SYMLINK+="pushbutton"

@@ -1,0 +1,12 @@
+[Unit]
+Description=ttyACM Pushbutton callback dispatcher
+
+After=network.target
+
+[Service]
+ExecStart=YOUR_DESIRED_PROGRAM_PATH/.venv/bin/python3 YOUR_DESIRED_PROGRAM_PATH/pushbutton.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
